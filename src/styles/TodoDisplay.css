@@ -1,0 +1,39 @@
+#todoDisplay{
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    column-gap: 20px;
+    row-gap: 50px;
+    width: fit-content;
+}
+.todoCard{
+    width: 250px;
+    height: 200px;
+    border: 2px solid blue;
+    background-color: rgb(180, 216, 236);
+    border-radius: 50px;
+}
+#todoTask{
+    padding: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 30px;
+    color:blue;
+    text-shadow: 3px 3px 5px green;
+}
+#controlsContainer{
+    margin: auto;
+    margin-top: 10px;
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.controls{
+    width: 60px;
+    background-color: rgb(91, 191, 146);
+    padding: 5px;
+    margin: auto;
+    border-radius: 20px;
+}

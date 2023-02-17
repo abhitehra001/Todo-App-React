@@ -1,0 +1,27 @@
+#todoInput{
+    border: 5px solid black;
+    width: 300px;
+    margin: auto;
+    padding: 40px 50px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+}
+#inputBox{
+    width: 250px;
+    padding: 10px;
+    background-color: beige;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+#add{
+    width: 100px;
+    background-color: rgb(64, 123, 147);
+    padding: 5px;
+    font-size: 18px;
+    margin: auto;
+    border-radius: 20px;
+}
